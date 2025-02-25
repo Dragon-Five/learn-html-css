@@ -44,7 +44,7 @@ body {
     shape-outside: circle(50%);
 
     img {
-      max-width: 100%; /* 80px */
+      width: 100%; /* 80px */
       border-radius: var(--radius);
       /* 가로세로를 뜻함 */
       aspect-ratio: 1/1;
