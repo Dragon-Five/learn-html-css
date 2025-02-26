@@ -1,46 +1,37 @@
 /* CSS 박스모델 */
 /* 박스의 테두리 설정 - border */
-/* 안쪽여백 설정 -padding */
-/* div는 block 요소를 가지고 있다 */
-/* 바깥쪽 여백 설정 */
-/* 박스 사이징 - box-sizing: content-box */
-.like {
-  /* border-top-width: 2px;
-  border-right-width: 4px;
-  border-bottom-width: 6px;
-  border-left-width: 8px; */
-  /* 시계방향으로 설정된다 */
-  /* 한번에 입력하여 작동된다  */
+/* 안쪽 여백 설정 - padding */
+/* 바깥쪽 여백 설정 - margin */
+/* 박스 사이징 - box-sizing */
+.like{
   box-sizing: border-box;
-  padding: 20px;
   border: 5px solid green;
+  padding: 20px;
   width: 150px;
   margin: 50px;
 
-  div {
+  div{
     background-color: yellow;
   }
 }
 
-.bootcamp {
+.bootcamp{
   border: 1px solid purple;
   padding: 0 100px;
 }
+
 /* width, height 속성으로 크기 지정 */
-/* inline일 경우 width가 적용되지않음 */
-/* inline-block일 경우 width가 적용됨 */
-.lion {
+/* inline일 경우 width가 적용되지 않음 */
+/* inline-block일 경우 width가 적용 됨 */
+.lion{
   display: block;
   border: 5px solid red;
   padding: 10px;
-  /* width: 300px; */
   margin: 20px 0;
 }
 
-/* 좌우 margin 줄때 inline 사용 */
-.student {
+.teacher{
   margin-bottom: 50px;
   width: 300px;
-  /* margin-inline: auto; */
   margin-left: -50px;
 }

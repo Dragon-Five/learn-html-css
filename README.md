@@ -21,11 +21,10 @@ git pull origin main
 ```sh
 npm install
 ```
-
 또는
-
 ```sh
 npm i
-```
 
-**패키지를 설치하기 전 반드시 git pull 명령을 사용하여 최신 내용으로 업데이트 필요**
+```
+**패키지를 설치하기 전 반드시 git pull 명령을 사용하여 최신 내용으로 
+업데이트 필요**

@@ -1,40 +1,36 @@
-/* (*) 유니버셜 셀렉트는 전체를 선택 */
-body * {
+body *{
   margin: 0;
 }
 
-body {
+body{
   color: olive;
   margin: 0;
 }
 
-h1 {
+h1{
   font-size: 1em;
 }
 
-.ai {
+.ai{
   background-color: orange !important;
 }
 
-body h2 + p {
+body h2 + p{
   background-color: yellow;
 }
 
-body p[class] {
+body p[class]{
   background-color: lime;
 }
-/* 나중에 선언하는것이 우선적 경로 정확성 점수에 따라 우선순위가 달라진다. */
 
-#ai {
+#ai{
   background-color: pink;
 }
 
-/* 숏텐드 프로퍼티 */
-.ai.copilot {
+.ai.copilot{
   border: 10px dotted blue;
 }
 
-a {
+a{
   color: inherit;
 }
-/* 상속 */

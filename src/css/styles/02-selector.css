@@ -1,27 +1,27 @@
-body {
+body{
   background-color: #ffc;
 }
 
 /* 태그 선택자 */
-p {
+p{
   color: red;
 
-  &:hover {
+  &:hover{
     background-color: skyblue;
   }
 
-  &:focus {
+  &:focus{
     border: 10px solid red;
   }
 }
 
 /* 클래스 선택자 */
-.like {
+.like{
   color: green;
 }
-
+ 
 /* 아이디 선택자 */
-#lion {
+#lion{
   color: blue;
 }
 
@@ -30,38 +30,36 @@ p {
   color: purple;
 }
 
-a[href^="https://"]
-{
+a[href^="https://"]{
   text-decoration: none;
 }
 
-a[href$='pdf'] {
+a[href$="pdf"]{
   background-color: violet;
 }
 
 /* 가상 클래스 선택자 */
-a:link {
+a:link{
   color: black;
 }
 
-a:visited {
+a:visited{
   color: olive;
 }
 
-a:hover {
+a:hover{
   color: blue;
 }
 
-a:focus {
-  color: aqua;
+a:focus{
+  color:aqua;
 }
 
-a:active {
+a:active{
   background-color: #fff;
 }
 
 /* 가상 요소 선택자 */
-/* before 나 after는 content 필수 */
 h1::before{
   content: "멋사";
 }

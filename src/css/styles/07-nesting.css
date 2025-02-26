@@ -1,17 +1,19 @@
-.likelion {
-  .likelion__list {
+.likelion{
+  
+  .likelion__list{
     list-style: none;
-
-    &:hover {
+ 
+    &:hover{
       background-color: pink;
     }
   }
 
-  .likelion__item {
+  .likelion__item{
     color: green;
+
   }
 
-  .likelion__link {
+  .likelion__link{
     color: inherit;
   }
 }

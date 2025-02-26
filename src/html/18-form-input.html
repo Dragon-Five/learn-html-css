@@ -3,12 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>폼 (input 요소)</title>
+    <title>form (input 요소)</title>
   </head>
   <body>
     <h1>form 관련 요소</h1>
     <h2>input 요소</h2>
-    <form action="http://formspree.io/f/xeqwwbwk" method="post">
+    <form action="https://formspree.io/f/xeqwwbwk" method="post">
       <fieldset>
         <legend>폼 서식</legend>
         <!-- 한 줄 입력서식 -->
@@ -19,8 +19,8 @@
             name="userName"
             id="userName"
             required
-            placeholder="예)홍길동"
-            maxlength="6"
+            placeholder="예)슬비쌤"
+            maxlength="5"
             minlength="3"
           />
         </div>
@@ -40,12 +40,12 @@
           <label for="likelionSearch">검색</label>
           <input type="search" name="likelionSearch" id="likelionSearch" />
         </div>
+        <!-- 이메일 입력 서식 -->
         <div>
-          <!-- 이메일 입력 서식 -->
           <label for="userEmail">이메일</label>
           <input type="email" name="userEmail" id="userEmail" required />
         </div>
-        <!-- 연락처 서식 -->
+        <!-- Tel 유형의 입력 서식 -->
         <div>
           <label for="userPhone">연락처</label>
           <input type="tel" name="userPhone" id="userPhone" required />
@@ -73,36 +73,31 @@
           <input type="checkbox" value="js" name="classLikelion" id="classJs" />
           <label for="classJs">JS</label>
         </div>
+        <!-- 라디오 서식 -->
         <div>
           <input
             type="radio"
             value="classRoom1"
+            checked
             name="classRoom"
             id="classRoom1"
           />
           <label for="classRoom1">회고 1팀</label>
         </div>
-        <!-- 라디오 서식 -->
         <div>
           <input
             type="radio"
-            value="classRoom8"
-            checked
+            value="classRoom2"
             name="classRoom"
-            id="classRoom8"
+            id="classRoom2"
           />
-          <label for="classRoom8">회고 8팀</label>
+          <label for="classRoom2">회고 2팀</label>
         </div>
-        <!-- alt 누른상태로 해당위치 누르면 여러곳의 글씨가 같이 변함 -->
+
         <!-- 전송 버튼 -->
         <input type="submit" value="전송" />
         <button type="submit">전송</button>
       </fieldset>
-      <!-- 
-      camelCase
-      snake_case
-      kebab-case
-      PascalCase -->
     </form>
   </body>
 </html>
