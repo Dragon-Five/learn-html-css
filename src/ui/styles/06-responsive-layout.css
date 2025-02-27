@@ -37,11 +37,10 @@
 .content {
   background: var(--pastel-aqua);
   height: 40vh;
-
+  display: flex;
   @media (min-width: 786px) {
     width: 50%;
     height: 65vh;
-    float: left;
 
     @media (min-width: 1024px) {
       width: 60%;
